@@ -1,0 +1,11 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 5
+
+login: "JuanMay89"
+password: "07711a5e5e"
+title_hello: "Hello, JuanMay89"
+
+title: "Фурина"
+description: "Гидро архонт Фонтейна"
+content: "Сильный персонаж водной стихии"
