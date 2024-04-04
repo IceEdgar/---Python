@@ -1,0 +1,13 @@
+2024-04-04 22:24:30 INFO ====== WebDriver manager ======
+2024-04-04 22:24:32 INFO Get LATEST chromedriver version for google-chrome
+2024-04-04 22:24:33 INFO Get LATEST chromedriver version for google-chrome
+2024-04-04 22:24:34 INFO Driver [C:\Users\Эд\.wdm\drivers\chromedriver\win64\123.0.6312.86\chromedriver-win32/chromedriver.exe] found in cache
+2024-04-04 22:24:36 INFO Test1 Starting
+2024-04-04 22:24:39 INFO Test2 Starting
+2024-04-04 22:24:41 INFO Test3 Stsrting
+2024-04-04 22:24:44 INFO Test Contact_us Starting
+2024-04-04 22:24:46 INFO Get alert message
+2024-04-04 22:24:46 INFO Alert message is Form successfully submitted
+2024-04-04 22:24:48 INFO Test check not me post started
+2024-04-04 22:24:50 INFO Test create post started
+2024-04-04 22:24:51 INFO Test check description started
