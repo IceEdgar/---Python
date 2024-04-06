@@ -73,17 +73,13 @@ def test_step5(login):
     logging.debug(f"get request return: {res}")
     result_title = [i['title'] for i in res]
     assert not_me_title in result_title, 'Пост с заданным заголовком не найден'
-    """assert str(not_me_title) in result_title, 'Пост с заданным заголовком не найден'"""
 
 
 def test_step6(login):
     logging.info("Test create post started")
-    url=addr_post
-    headers={'X-Auth-Token': login}
-    d={'title': title,
-       'description': description,
-       'content': content
-       }
+    url = addr_post
+    headers = {'X-Auth-Token': login}
+    d = {'title': title, 'description': description, 'content': content}
     res = S.post(url, headers=headers, data=d)
     logging.debug(f"Response is {str(res)}")
     assert str(res) == '<Response [200]>', "Новый пост не создан"
